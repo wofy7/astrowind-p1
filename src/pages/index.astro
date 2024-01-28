@@ -13,10 +13,17 @@ import Layout from "../layouts/Layout.astro"
         <p>
             <label>Your Email: <input type="email" name="email" /></label>
         </p>
+
+        <p>
+            <p>Your Role</p>
+            leader<input type="radio" name="op" value="1"><br>
+            Follower <input type="radio" name="op" value="2"><br>
+</form>
+        </p>
         <p>
           <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</radio>
-            <option value="follower">Follower</radio>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
           </select></label>
         </p>
         <p>
